@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Copywrite'
+title: 'Cloud'
 icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Design and implementation of infrastructures and ensure the effective design of business processes in the cloud'
 ---

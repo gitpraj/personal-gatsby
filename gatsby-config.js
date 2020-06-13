@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby.JS`,
+    title: `Prajith Maniyan`,
     description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
     author: `Saimir Kapaj`
   },
