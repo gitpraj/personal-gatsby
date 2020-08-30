@@ -1,6 +1,6 @@
 ---
 category: 'contact'
-title: 'Twitter'
-icon: 'map-marker-alt'
-content: 'Australia'
+title: 'Instagram'
+icon: 'camera'
+href: 'https://www.instagram.com/prajithm2790'
 ---

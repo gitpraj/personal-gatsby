@@ -23,7 +23,7 @@ const ConctactInfo = () => {
             frontmatter {
               title
               icon
-              content
+              href
             }
           }
         }
@@ -40,12 +40,12 @@ const ConctactInfo = () => {
       {contacts.map((item) => {
         const {
           id,
-          frontmatter: { title, icon, content }
+          frontmatter: { title, icon, href }
         } = item.node;
 
         return (
           <Styled.ContactInfoItem key={id}>
-            <InfoBlock icon={icon} title={title} content={content} center />
+            <InfoBlock icon={icon} title={title} href={href} center />
           </Styled.ContactInfoItem>
         );
       })}

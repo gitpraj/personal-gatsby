@@ -2,5 +2,5 @@
 category: 'contact'
 title: 'Email'
 icon: 'paper-plane'
-content: 'prajith.manian@gmail.com'
+href: 'mailto:prajith.manian@gmail.com'
 ---

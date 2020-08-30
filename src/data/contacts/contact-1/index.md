@@ -1,6 +1,6 @@
 ---
 category: 'contact'
 title: 'Facebook'
-icon: 'phone'
-content: '+122 334 888 323'
+icon: 'laptop-code'
+href: 'https://www.facebook.com/praj.man90'
 ---

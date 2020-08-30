@@ -5,30 +5,23 @@ import Icon from 'components/ui/Icon';
 
 import * as Styled from './styles';
 
-const InfoBlock = ({ icon, title, href, center }) => (
+const InfoBlockDesc = ({ icon, title, content, center }) => (
   <Styled.InfoBlock center={center}>
     <Styled.Icon>
       <Icon icon={icon} />
     </Styled.Icon>
     <Styled.Wrapper center={center}>
-      {/* <Styled.Title>{title}</Styled.Title> */}
-      {/* <Styled.Content>{content}</Styled.Content> */}
-      <Styled.Link
-              href={href}
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              {title}
-      </Styled.Link>
+      <Styled.Title>{title}</Styled.Title>
+      <Styled.Content>{content}</Styled.Content>
     </Styled.Wrapper>
   </Styled.InfoBlock>
 );
 
-InfoBlock.propTypes = {
+InfoBlockDesc.propTypes = {
   center: PropTypes.bool,
   title: PropTypes.string.isRequired,
-  href: PropTypes.any.isRequired,
+  content: PropTypes.any.isRequired,
   icon: PropTypes.string.isRequired
 };
 
-export default InfoBlock;
+export default InfoBlockDesc;
